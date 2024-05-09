@@ -19,7 +19,7 @@ class Product {
     try {
 
       //  let result = await fetch("./data.json");
-      let result = await fetch("data.json");
+      let result = await fetch("https://663b45b0fee6744a6ea10448.mockapi.io/products");
       let data = await result.json();
       let products = data;
       return products;
